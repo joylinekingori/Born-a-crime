@@ -15,7 +15,7 @@
 
 .body {
     overflow-x: hidden;
-    background-color:#DACAA4;
+    background-color:#E0D8FF;
 }
 
 .nav-bar {
@@ -69,6 +69,7 @@
 
 .text {
     line-height: 1.8rem;
+    padding-top: 250px;
 }
 
 .text h1 {
@@ -113,14 +114,14 @@
     display: flex;
     justify-content: center;
     gap: 8rem;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .container-three {
     display: flex;
     gap: 5rem;
     justify-content: center;
-    background-color: #ECE7CA;
+    background-color:#d4cfe7;
     /* width: 150rem; */
     height: 40rem;
     margin-left: 2rem;
@@ -208,6 +209,7 @@
     justify-content: center;
     position: relative;
     margin: 100px auto;
+    margin-top: 10rem;
     text-align: center;
     margin-left: px;
 
@@ -220,20 +222,20 @@
 
 
 }
-.nav{
+nav{
     display: flex;
     background-color: rgb(90, 72, 76);
     position: sticky;
     top: 0%;
     z-index: 1000;
     margin-bottom: 5em;
-    width: 100vw;
+    width: 119vw;
     height: 8vh;
     gap: 5%;
     align-items: center;
     justify-content: center;
     text-align: center;
-.a{
+    a{
         text-decoration: none;
         color: rgb(255, 255, 255);
         font-family: wid;
@@ -242,8 +244,7 @@
 }
 .icon-link{
     display: block;
-}
-footer{
+}footer{
     margin: 0 auto;
     padding-top: 0;
     padding-left: 10em;
@@ -252,6 +253,7 @@ footer{
     font-size: 150%;
     background-color: rgb(92, 80, 82);
     border: 1px solid rgb(100, 98, 98);
+    margin-top: -10rem;
 }
 footer h1{
     border-bottom: 1px solid black;
@@ -278,6 +280,29 @@ footer h1{
     padding-top: 1em;
     width: 70vw;
     margin: 0 auto;
+}
+nav{
+    display: flex;
+    background-color:  rgb(92, 80, 82);
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    margin-bottom: -2em;
+    width: 100vw;
+    height: 8vh;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: wid;
+        cursor: pointer;
+    }
+}
+.icon-link{
+    display: block;
 }
 
 
