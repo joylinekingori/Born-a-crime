@@ -220,6 +220,67 @@
 
 
 }
+.nav{
+    display: flex;
+    background-color: rgb(90, 72, 76);
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    margin-bottom: 5em;
+    width: 100vw;
+    height: 8vh;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+.a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: wid;
+        cursor: pointer;
+    }
+}
+.icon-link{
+    display: block;
+}
+footer{
+    margin: 0 auto;
+    padding-top: 0;
+    padding-left: 10em;
+    font-family: kurale;
+    color: white;
+    font-size: 150%;
+    background-color: rgb(92, 80, 82);
+    border: 1px solid rgb(100, 98, 98);
+}
+footer h1{
+    border-bottom: 1px solid black;
+    width: 78vw;
+}
+.icon-white path {
+    fill: white;
+}
+.company{
+    display: flex;
+    justify-content: space-evenly;
+}
+.company img{
+    width: 15vw;
+    height: 20vh;
+    border-radius: 10px;
+}
+#marven{
+    text-align: center;
+}
+.copy{
+    border-top: 1px solid gray;
+    text-align: center;
+    padding-top: 1em;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+
 @media only screen and (max-width:768px) {
     .nav-bar {
         border-radius: 20px;
