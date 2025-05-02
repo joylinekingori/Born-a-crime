@@ -58,13 +58,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 800px;
+    height: 700px;
     width: 100%;
     color: white;
     text-align: center;
     margin-bottom: 70px;
+    transition: 0.5s ease-out;
 
 
+}
+.container{
+    transform: scale(1.1);
 }
 
 .text {
@@ -121,7 +125,7 @@
     display: flex;
     gap: 5rem;
     justify-content: center;
-    background-color:#d4cfe7;
+    background-color:#d8d1f0;
     /* width: 150rem; */
     height: 40rem;
     margin-left: 2rem;
