@@ -284,6 +284,7 @@ footer h1{
     padding-top: 1em;
     width: 70vw;
     margin: 0 auto;
+    font-size: 80%;
 }
 nav{
     display: flex;
